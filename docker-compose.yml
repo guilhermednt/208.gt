@@ -5,6 +5,7 @@ services:
     image: nginx:mainline-alpine
     container_name: 208.gt
     labels:
+      - "traefik.enable=true"
       - "traefik.frontend.entryPoints=https,http"
       - "traefik.frontend.redirect.entryPoint=https"
       - "traefik.frontend.rule=Host:208.gt,208.local.dona.to"
