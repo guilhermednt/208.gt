@@ -1,0 +1,8 @@
+{
+    "version": 2,
+    "alias": "208.gt",
+    "builds": [
+        { "src": "index.html", "use": "@now/static"}
+    ],
+    "regions": ["cdg"]
+}
