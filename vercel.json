@@ -1,8 +1,5 @@
 {
-    "version": 2,
-    "alias": "208.gt",
-    "builds": [
-        { "src": "web/index.html", "use": "@now/static"}
-    ],
-    "regions": ["cdg"]
+  "outputDirectory": "web",
+  "buildCommand": "",
+  "framework": null
 }
