@@ -1,0 +1,3 @@
+kind = "static"
+name = "208gt"
+hosts = ["208.gt", "www.208.gt"]
